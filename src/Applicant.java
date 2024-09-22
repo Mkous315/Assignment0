@@ -7,51 +7,54 @@ public class Applicant {
     public int age;
     public String maritalStatus;
 
-    public int speak_1;
-    public int listen_1;
-    public int read_1;
-    public int write_1;
-    public boolean all_2;
+    public int speak1;
+    public int listen1;
+    public int read1;
+    public int write1;
+    public boolean all2;
 
     public String education;	
-    public int  work_experience;
-    public boolean arranged_employment;
+    public int  workExperience;
+    public boolean arrangedEmployment;
 
-    public boolean adaptability_spouse_language;
-    public boolean adaptability_spouse_education;
-    public boolean adaptability_spouse_work;
-    public boolean adaptability_you_education;
-    public boolean adaptability_you_work;
-    public boolean adaptability_you_employment;
-    public boolean adaptability_relatives;
+    public boolean adaptabilitySpouseLanguage;
+    public boolean adaptabilitySpouseEducation;
+    public boolean adaptabilitySpouseWork;
+    public boolean adaptabilityYouEducation;
+    public boolean adaptabilityYouWork;
+    public boolean adaptabilityYouEmployment;
+    public boolean adaptabilityRelatives;
+    			int score = 0;
+ 
     
-    public Applicant(self, first_name, last_name, age, marital_status, speak_1, listen_1, read_1, write_1, all_2, education, work_experience, arranged_employment,
-            adaptability_spouse_language, adaptability_spouse_education, adaptability_spouse_work, 
-            adaptability_you_education, adaptability_you_work, adaptability_you_employment, adaptability_relatives) {
-        this.first_name = first_name;
-        	    this.last_name = last_name;
+    public Applicant(String firstName, String lastName, int age, String maritalStatus, int speak1, int listen1,int read1, int write1, boolean all2, String education, int workExperience, boolean arrangedEmployment, 
+            boolean adaptabilitySpouseLanguage, boolean adaptabilitySpouseEducation, boolean adaptabilitySpouseWork, boolean 
+            adaptabilityYouEducation, boolean adaptabilityYouWork, boolean adaptabilityYouEmployment, boolean adaptabilityRelatives) {
+        
+    			this.firstName = firstName;
+        	    this.lastName = lastName;
         	    this.age = age;
-        	    this.marital_status = marital_status;
+        	    this.maritalStatus = maritalStatus;
 
-        	    this.speak_1 = speak_1;
-        	    this.listen_1 = listen_1;
-        	    this.read_1 = read_1;
-        	    this.write_1 = write_1;
-        	    this.all_2 = all_2;
+        	    this.speak1 = speak1;
+        	    this.listen1 = listen1;
+        	    this.read1 = read1;
+        	    this.write1 = write1;
+        	    this.all2 = all2;
 
         	    this.education = education; 	
-        	    this.work_experience = work_experience;
-        	    this.arranged_employment = arranged_employment;
+        	    this.workExperience = workExperience;
+        	    this.arrangedEmployment = arrangedEmployment;
 
-        	    this.adaptability_spouse_language = adaptability_spouse_language;
-        	    this.adaptability_spouse_education = adaptability_spouse_education;
-        	    this.adaptability_spouse_work = adaptability_spouse_work;
-        	    this.adaptability_you_education = adaptability_you_education
-        	    this.adaptability_you_work = adaptability_you_work
-        	    this.adaptability_you_employment = adaptability_you_employment
-        	    this.adaptability_relatives = adaptability_relatives
+        	    this.adaptabilitySpouseLanguage = adaptabilitySpouseLanguage;
+        	    this.adaptabilitySpouseEducation = adaptabilitySpouseEducation;
+        	    this.adaptabilitySpouseWork = adaptabilitySpouseWork;
+        	    this.adaptabilityYouEducation = adaptabilityYouEducation;
+        	    this.adaptabilityYouWork = adaptabilityYouWork;
+        	    this.adaptabilityYouEmployment = adaptabilityYouEmployment;
+        	    this.adaptabilityRelatives = adaptabilityRelatives;
 
-        	    this.score = 0
+        	    this.score = 0;
     }
 
 	

@@ -1,6 +1,7 @@
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import Applicant.java
 
 
 public class Application {
@@ -12,18 +13,19 @@ public class Application {
  
 		printQualifiedApplicants("foo.txt", null);
 		
+		
 
 	}
 
 	public static void printQualifiedApplicants(String fileName, ArrayList<String>applicantList) throws IOException {
 		String relativePath = OUTPUT_DATA_FOLDER + fileName;
 		int qualifiedApplicants = 0;
-		
+		Applicant app = new Applicant();
 		FileWriter  writer = new FileWriter(relativePath);
 		writer.write("First Name          |Last Name           |  Age|Score");
 		writer.write("\n--------------------+--------------------+-----+-----");
-		for
-			writer.write(Applicant);
+		
+			writer.write();
 		writer.close();
 		
 	}
