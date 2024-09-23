@@ -1,4 +1,4 @@
-
+package mru;
 public class Applicant {
 
 	
@@ -24,7 +24,7 @@ public class Applicant {
     public boolean adaptabilityYouWork;
     public boolean adaptabilityYouEmployment;
     public boolean adaptabilityRelatives;
-    			int score = 0;
+    public int score = 0;
  
     
     public Applicant(String firstName, String lastName, int age, String maritalStatus, int speak1, int listen1,int read1, int write1, boolean all2, String education, int workExperience, boolean arrangedEmployment, 
@@ -56,6 +56,13 @@ public class Applicant {
 
         	    this.score = 0;
     }
-
-	
+    
+        // Method that takes two strings and returns their concatenation
+        public String tooString() {
+        	
+            return firstName + lastName + age + score;
+            
+            
+        
+    }
 }
